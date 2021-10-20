@@ -1,0 +1,26 @@
+// Scene area
+500.000000 500.000000
+
+// Receiver position
+0.0105 26.7385 0.000000 5.0 5.0 0.105 0
+
+// Field layout type
+0 rectangular
+
+// heliostat intervals
+15.000000 15.000000
+
+// row  col
+// Heliostat slice matrix
+1 1
+// Heliostat slice gap
+0.200000 0.200000
+
+// Reflector numbers
+4
+
+// Reflector position
+-42.32  5.191  82.357 1.60 1.25 0.03
+-41.325 5.372  68.811 1.60 1.25 0.03
+-30.14  5.384  68.852 1.60 1.25 0.03
+-21.233 5.423  68.833 1.60 1.25 0.03

@@ -2,6 +2,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 class Receiver:
     # type,pos,size,norm,face
     def __init__(self, id, t, p, s, n, f):
@@ -91,7 +92,7 @@ class Scene():
         for i in self.heliostats:
             x.append(i.pos[0])
             y.append(i.pos[2])
-        plt.scatter(x, y, marker='.', linewidths=0.8)
+        plt.scatter(x, y, marker='.', linewidths=0.01)
         plt.show()
 
     def exportHelioCSV(self, export_file_path="./export_scene.csv"):
@@ -137,8 +138,7 @@ def showHeliostat():
 
 if __name__ == "__main__":
     scene = Scene()
-    scene.loadSceneFile('./test_scene.txt')
-    scene.debug()
+    scene.loadSceneFile('./Input/6282_QMCRT.scn')
+    # scene.debug()
     scene.showHeliostat()
-    scene.exportHelioCSV("./text.csv")
-    pass
+    # scene.exportHelioCSV("./text.csv")
